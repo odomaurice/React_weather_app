@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Merriweather:ital,wght@0,400;0,700;1,700&family=Poppins:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;700&family=Sacramento&display=swap');
+
+// variables & functions
+@import 'functions';
+@import 'variables';
+
+// base & layout
+
+@import 'breakpoints';
+@import 'grid';
+
+//colors
+@import 'colors';
+
+
+// components (button, card, navbar)
+@import './utilities/card';
+@import './utilities/buttons';
+
+
+
+// utilities (margin, padding, opacity)
+@import 'utilities';
