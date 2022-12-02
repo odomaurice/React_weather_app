@@ -1,10 +1,16 @@
 .title{
     font-size: 25px;
     font-weight: 700;
+    margin-left: 2rem;
+    color: #ddd;
+}
+
+.title:hover{
+    color: #ffa500;
 }
 
 .daily-item{
-    background-color: #1C9CF6;
+    background-color: #fff;
     border-radius: 15px;
     height: 40px;
     margin: 5px;
@@ -13,7 +19,7 @@
     cursor: pointer;
     font-size: 15px;
     padding: 5px 20px;
-     color: #FFCD08;
+     color: #ffa500;
 }
 
 .icon-small{
@@ -32,10 +38,11 @@
     flex: 1 1;
     margin-right: 15px;
     text-align: right;
+   
 }
 
 .min-max{
-    color: #FFCD00;
+    color: #ffa500;
 }
 
 .daily-grid-details{
@@ -47,6 +54,11 @@
     flex: 1 1;
     grid-template-columns: auto auto;
     padding: 5px 15px;
+    background-color: #000;
+    color: #000;
+    border-radius: 15px;
+   
+        margin: 5px;
     
 }
 
@@ -58,13 +70,13 @@
 }
 
 .daily-grid-details-item label:first-child {
-    color: #757575;
+    color: #fff;
 
 
 }
 
 .daily-grid-details-item label:last-child{
-    color: #212121;
+    color: #ddd;
 
 }
 

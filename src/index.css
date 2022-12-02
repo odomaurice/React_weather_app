@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,700&family=Poppins:ital,wght@0,400;0,700;1,400&family=Roboto:wght@400;700&family=Sacramento&display=swap');
+
 body {
     margin: 0;
-    font-family: "Roboto", cursive !important;
+    font-family: "Poppins" !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color:#ddd;
