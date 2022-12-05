@@ -1,7 +1,7 @@
 .App {
    /* max-width: 1080px; 
   margin: 20px auto;  */
-  background-image: url('./../public/icons/cool2.jpg');
+  background-image: url('./../public/icons/weatherbg.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease-out;
